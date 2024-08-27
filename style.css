@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{ 
+    
+    background: #F3F5FC; 
+    box-sizing: border-box;
+  
+
+}
+
+.principal{
+    display: flex;
+    
+}
+
+.logo{
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+}
+
+
+
+
+.segmento1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.casilla{
+    font-family: 'Inter';
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: 13rem;
+    margin-top: 3rem;
+    border: none;
+    width: 36.063rem;
+    height: 3rem;
+    background:none;
+    color: #0a3871;
+    
+}
+::placeholder{color: #0a3871;}
+    .casilla:focus{
+        outline: none;
+    }
+
+.mensaje{
+    margin-right: 1rem;
+}
+
+
+.divseg1{
+        
+    margin-top: 24rem ;
+    margin-left: 13rem;
+    margin-right: 10rem;
+    font-family: 'Inter';
+    font-size: 0.75rem;
+    
+}
+
+.botones{
+    display: flex;
+    gap: 1rem;
+    padding: 0rem 0rem 2rem 13rem;
+    
+}
+
+.encriptar{
+    border-radius: 1rem;
+    border: #0a3871;
+    width: 20rem;
+    height: 3.2rem;
+    font-family: 'Inter';
+    font-size: 0.8rem;
+    background-color: #0a3871;
+    color: #ffffff;
+}
+
+.desencriptar{
+    border-radius: 1rem;
+    width: 20rem;
+    height: 3.2rem;
+    font-family: 'Inter';
+    font-size: 0.8rem;
+    background-color: #d8dfe8;
+    color: #0a3871;
+}
+
+
+.mensaje{
+    font-family: 'Inter';
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    width: 22rem;
+    height: 36rem;
+    background-color: #ffffff;
+    border-radius: 5%;
+    border: none;
+    align-items: center;
+    outline: none;
+    margin-left: 2rem;
+    
+
+}   
+
+.seg{
+    border-right: 2px;
+}
+
+.cont{
+    align-items: center;
+    
+}
+
+.imagen{
+    position: absolute;
+    width: 18rem;
+    margin-top: 6rem;
+    margin-left: 4rem;
+    
+}
+
+.p1{
+    font-family: 'Inter';
+    font-size: 1.5rem;
+    color: #343a40;
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+    margin-top: 23rem;
+    margin-left: 3rem;
+    margin-right: 5rem;
+    
+} 
+
+.p2{
+    font-family: 'Inter';
+    font-size: 0.8rem;
+    color: #343a40;
+    text-align: center;
+    margin-top: 1rem;
+    position: absolute;
+    margin-top: 27rem;
+    margin-left: 5rem;
+    margin-right: 7rem;
+}
+
+.copiar{
+    position: absolute;
+    border-radius: 1rem;
+    width: 10rem;
+    height: 3rem;
+    font-family: 'Inter';
+    font-size: 0.8rem;
+    background-color: #d8dfe8;
+    color: #0a3871;
+    margin-top: 31.2rem;
+    margin-left: 9rem;
+    display: none;
+    
+}
+
+@media (max-width: 770px){
+
+    main{
+        flex-direction: column;
+    }
+    .imagen{
+        display: none;  
+    }
+  
+    
+    .mensaje{
+        width: 40rem;
+        height: 8rem;
+        margin-top: 2rem;
+    }
+
+    .divseg1{
+        margin-left: 3rem;
+        
+    }
+
+    .botones{
+        padding: 0%;
+        margin-left: 3rem;
+    }
+    .casilla{
+    margin-left: 3rem;
+    }
+    .p1{
+        margin-top: 3rem;
+        margin-left: 12rem;
+    }
+    .p2{
+        margin-top: 6rem;
+        margin-left: 14rem;
+    }
+
+    .copiar{
+        margin-top: 10.5rem;
+        margin-left: 19rem;
+    }
+
+}
+
+@media (max-width: 375px){
+
+    .logo{
+        margin-left: 0%;
+        
+    }
+
+    .divseg1{
+        margin-top: 15rem;
+        font-size: 0.9rem;
+        margin-right: 1rem;
+        
+    }
+    
+    .botones{
+        margin-top: 1rem;
+    }
+
+    .mensaje{
+        width: 20rem;
+    }
+
+    .p1{
+        font-size: 1rem;
+        margin-left: 5rem;
+        margin-right: 3rem;
+    }
+
+    .p2{
+        margin-left: 5rem;
+        margin-right: 3rem;
+        margin-top: 6rem;
+    }
+
+    .copiar{
+        margin-top: 10.5rem;
+        margin-left: 8rem;
+    }
+
+   
+
+
+}
+
